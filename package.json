@@ -1,0 +1,36 @@
+{
+  "name": "create-promise-callback",
+  "version": "0.1.0",
+  "description": "Make asynchronous methods support both Promise and callback. ",
+  "main": "lib/index.js",
+  "dependencies": {
+    "bluebird": "^3.5.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1"
+  },
+  "scripts": {
+    "bulid": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "build && publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morenyang/create-promise-callback.git"
+  },
+  "keywords": [
+    "promise",
+    "callback",
+    "async"
+  ],
+  "author": "Moren YANG <morenyang88@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morenyang/create-promise-callback/issues"
+  },
+  "homepage": "https://github.com/morenyang/create-promise-callback#readme"
+}
