@@ -1,5 +1,8 @@
 # create-promise-callback
 
+[![NPM version](https://img.shields.io/npm/v/next.svg)](https://www.npmjs.com/package/create-promise-callback)
+[![Build Status](https://api.travis-ci.org/morenyang/create-promise-callback.svg?branch=master)](https://travis-ci.org/morenyang/create-promise-callback)
+
 Make asynchronous methods support both Promise and callback.
 
 ## Install
