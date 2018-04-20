@@ -2,6 +2,11 @@
 
 Make asynchronous methods support both Promise and callback.
 
+## Install
+```sh
+$ yarn add create-promise callback
+```
+
 ## Usage
 
 ```js
@@ -51,6 +56,12 @@ multiArgsFunc()
   .then((arg1, arg2) => {
     // ...
   })
+```
+## Use your preferred Promise library
+set `global.Promise` to your preferred Promise libaray like [bluebird](http://bluebirdjs.com/). 
+
+```js
+global.Promise = require('bluebird')
 ```
 
 ## License
