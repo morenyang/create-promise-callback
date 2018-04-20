@@ -77,8 +77,6 @@ describe('create-promise-callback module', () => {
         done();
       });
     })
-
-
   })
 
 });
