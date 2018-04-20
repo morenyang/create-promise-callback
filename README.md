@@ -30,6 +30,27 @@ get('yourkey')
   .then(res => {
     console.log(res);
   })
+  .catch(err => {
+    console.log(err);
+  })
+
+// also resolve with multi arguments
+function multiArgsFunc(fn) {
+  fn = fn || createPromiseCallback();
+
+  yourFunc()
+    .then((err, arg1, arg2) => {
+      if(err) return fn(err);
+      fn(null, arg1, arg2);
+    })
+
+  return fn.promise;
+}
+
+multiArgsFunc()
+  .then((arg1, arg2) => {
+    // ...
+  })
 ```
 
 ## License
