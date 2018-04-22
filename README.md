@@ -7,7 +7,7 @@ Make asynchronous methods support both Promise and callback.
 
 ## Install
 ```sh
-$ yarn add create-promise callback
+$ yarn add create-promise-callback
 ```
 
 ## Usage
